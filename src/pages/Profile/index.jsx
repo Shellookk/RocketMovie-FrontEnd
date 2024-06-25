@@ -3,7 +3,7 @@ import {Container} from "./styles";
 
 
 //Função Principal
-export function Perfil(){
+export function Profile(){
     return (
         <Container>
           <h1>Hello World</h1>
