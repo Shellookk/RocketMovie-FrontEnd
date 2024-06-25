@@ -4,6 +4,9 @@ import { Container, Profile } from "./styles";
 export function Header(){
     return(
         <Container>
+
+
+            
             <Profile>
                
                 <div>
