@@ -6,7 +6,7 @@
 2- Instalar as dependencias:
  npm create vite rocketnotes --template react
  npm install --save styled-components
-
+ npm install react-icons --save
 
 3- Executando o projeto:
  npm run dev
