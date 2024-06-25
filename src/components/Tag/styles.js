@@ -11,7 +11,4 @@ export const Container = styled.span`
 
     color: #E5E5E5;
     background-color: #282124;
-
-
-
 `;

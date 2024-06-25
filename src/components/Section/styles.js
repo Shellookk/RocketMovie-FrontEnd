@@ -1,12 +1,12 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.section`
-  margin: 56px 0 28px;
+  margin: 3.2rem 0 2.4rem;
 
   > h2 {
+    margin-bottom: 2.4rem;
     color: white;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 42.2px;
-  }
-`
+  };
+`;
