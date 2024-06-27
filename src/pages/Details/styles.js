@@ -18,6 +18,7 @@ export const Container = styled.div`
     max-width: 1137px;
     margin: 40px auto;
 
+
     header {
       display: flex;
       flex-direction: column;
@@ -76,11 +77,10 @@ export const Container = styled.div`
 
   > main::-webkit-scrollbar {
     width: 8px;
-    height: 96px;
-  }
+  };
 
   > main::-webkit-scrollbar-thumb {
     background-color: ${({ theme }) => theme.COLORS.COLOR_TITLE};
     border-radius: 8px;
-  }
+  };
 `;
