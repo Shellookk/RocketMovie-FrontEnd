@@ -11,11 +11,44 @@ export const Container = styled.header`
     border-bottom-color: ${({ theme }) => theme.COLORS.COLOR_BORDER};
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 
     padding: 0 123px;
 
 `
+
+export const Logo = styled.div`
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    >h1{
+        font-size: 24px;
+        font-weight: bold;
+        color: ${({ theme }) => theme.COLORS.COLOR_TITLE}
+    };
+`;
+
+export const Search = styled.div`
+  display: flex;
+  align-items: center;
+
+  >input{
+    width: 630px;
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    color: ${({ theme }) => theme.COLORS.COLOR_PLACEHOLDER};
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_SEARH};
+    padding: 19px 471px 19px 24px;
+    margin: 30px 64px;
+    };
+
+    >input:focus{
+        outline: none;    
+    };
+
+`;
 
 export const Profile = styled.div`
     display: flex;
@@ -30,26 +63,24 @@ export const Profile = styled.div`
         border-color: ${({ theme }) => theme.COLORS.COLOR_BORDER};
 
     };
-    
-    > div{
+
+    >div{
         display: flex;
         flex-direction: column;
-        margin-right: 9px;
+        font-size: 14px;
+
+        margin-right:10px;
         align-items: flex-end;
 
-        h1{
-            font-size: 14px;
-            font-weight: bold;
-        };
-
-        a{
-            font-size: 14px;
-            font-weight: normal;
-            color: ${({ theme }) => theme.COLORS.COLOR_PLACEHOLDER};
-        };
-
-
     };
+`;
 
+export const  Logout = styled.button`
+    border: none;
+    background: none;
+    color: ${({ theme }) => theme.COLORS.COLOR_PLACEHOLDER};
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-size: 14px;
 
 `;
