@@ -77,6 +77,7 @@ export const Container = styled.div`
 
   > main::-webkit-scrollbar {
     width: 8px;
+
   };
 
   > main::-webkit-scrollbar-thumb {
