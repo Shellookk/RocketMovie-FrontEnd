@@ -5,7 +5,6 @@ import { Header } from "../../components/Header";
 import { ButtonText} from "../../components/ButtonText";
 import { Rating } from "../../components/Rating";
 import { Tag } from "../../components/Tag";
-import { Retangulo } from "../../components/Retangulo";
 
 //Função Principal
 export function Details(){
@@ -29,13 +28,14 @@ export function Details(){
                 <p>
                   <img src="https://github.com/shellookk.png" alt="" />  
                   Por Isaque Rodrigues                
-                </p>                              
+                </p>                     
+                <div>
+                  <FiClock/>
+                  <p>23/05/22 às 08:00</p>
+                </div>              
               </div>
 
-              <div>
-                <FiClock/>
-                <p>23/05/22 às 08:00</p>
-              </div>           
+      
             </header>
 
             <section>
@@ -63,7 +63,6 @@ export function Details(){
               Cooper e Amelia descobrem que 23 anos se passaram.
             </p>
 
-            <Retangulo/>
           </main>
         </Container>   
       );

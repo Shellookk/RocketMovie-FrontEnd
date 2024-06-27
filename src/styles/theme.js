@@ -17,4 +17,4 @@ export default {
         BACKGROUND_SEARH: "#262529",
         BACKGROUND_COLOR_FILMS: "#272024",
     },
-};
+}
