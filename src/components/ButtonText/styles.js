@@ -8,4 +8,10 @@ export const Container = styled.button`
   font-size: 16px;
   align-items: center;
   justify-content: center;
-`
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 24px;
+`;
