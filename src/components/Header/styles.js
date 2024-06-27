@@ -22,7 +22,7 @@ export const Logo = styled.div`
     display: flex;
     text-align: center;
     justify-content: center;
-    >h1{
+    >a h1{
         font-size: 24px;
         font-weight: bold;
         color: ${({ theme }) => theme.COLORS.COLOR_TITLE}
