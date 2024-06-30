@@ -73,7 +73,20 @@ export const Container = styled.div`
 
       line-height: 21px;
     }
-  }
+
+    button {
+      background-color: ${({ theme }) => theme.COLORS.BLACK_CREATE_MOVIE};
+      color: ${({ theme }) => theme.COLORS.COLOR_TITLE};
+
+      width: calc(50% - 20px);
+      height: 56px;
+      margin-top: 40px;
+    };
+    .Button button:hover{
+      background-color: ${({ theme }) => theme.COLORS.COLOR_TITLE};
+      color: ${({ theme }) => theme.COLORS.BLACK_CREATE_MOVIE};
+    };
+  };
 
   > main::-webkit-scrollbar {
     width: 8px;

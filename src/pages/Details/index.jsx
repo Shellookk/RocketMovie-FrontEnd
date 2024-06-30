@@ -5,6 +5,7 @@ import { Header } from "../../components/Header";
 import { ButtonText} from "../../components/ButtonText";
 import { Rating } from "../../components/Rating";
 import { Tag } from "../../components/Tag";
+import { Button } from "../../components/Button";
 
 //Função Principal
 export function Details(){
@@ -62,6 +63,12 @@ export function Details(){
               tripulação enquanto Amelia tenta recuperar os dados de Miller, matando Doyle e atrasando a partida. Ao voltarem para a Endurance, 
               Cooper e Amelia descobrem que 23 anos se passaram.
             </p>
+
+            <div class="Button">
+              <Button
+                title="Excluir filme"
+              />
+            </div>
 
           </main>
         </Container>   

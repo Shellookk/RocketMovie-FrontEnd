@@ -5,8 +5,7 @@ export default {
         COLOR_PLACEHOLDER: "#948F99",
         COLOR_DESCRIPTION: "#999591",
 
-        COLOR_BORDER : "#3E3B47",
-    
+        COLOR_BORDER : "#3E3B47",    
         
         GRAY : "#CAC4CF",
         BLACK : "#312E38",
